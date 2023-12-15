@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(47, 47, 195);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+ 
+}
+
+.container h1{
+  color: rgb(242, 239, 239);
+}
+
+#dado {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(117, 230, 141);
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 1rem rgba(0, 0, 0, 0.5);
+}
+
+#tirar-btn {
+  border:none;
+  border-radius: 1rem;
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: rgb(227, 174, 76);
+  box-shadow: 6px 6px 1rem rgba(0, 0, 0, 0.5);
+}
+
+#tirar-btn:hover {
+  background-color: rgb(241, 120, 76);
+}
